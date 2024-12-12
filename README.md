@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness with Long Requests
+
+This repository demonstrates a common issue in Node.js where a server can become unresponsive due to long-running requests.  The example uses a simple Express.js server with a 5-second delay to simulate a lengthy operation.  Without proper handling, this can cause the server to stop responding to new requests. The solution showcases how to avoid this using techniques like asynchronous operations or worker threads.
